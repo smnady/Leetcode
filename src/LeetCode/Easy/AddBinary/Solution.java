@@ -22,7 +22,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        String a =       "101000001001001"; //110101110011110111010
+        String a =       "101000001001001"; 
         String b = "110101001011101110001";
         System.out.println(addBinary(a,b));
     }
