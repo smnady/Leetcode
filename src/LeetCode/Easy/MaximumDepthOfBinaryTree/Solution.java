@@ -1,5 +1,7 @@
 package LeetCode.Easy.MaximumDepthOfBinaryTree;
 
+import LeetCode.Data.TreeNode;
+
 public class Solution {
     public static int maxDepth(TreeNode root) {
         return result(root, 0, 0);
@@ -26,15 +28,3 @@ public class Solution {
         System.out.println(maxDepth(t1));
     }
 }
- class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode() {}
-      TreeNode(int val) { this.val = val; }
-      TreeNode(int val, TreeNode left, TreeNode right) {
-          this.val = val;
-          this.left = left;
-          this.right = right;
-      }
-  }
